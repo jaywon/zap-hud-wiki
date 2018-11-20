@@ -29,6 +29,13 @@ The above command will build the `hud-alpha-1.zap` plugin to the `zap-hud/build/
 #### Adding the HUD plugin to ZAP
 To add the HUD plugin to ZAP, go to `File->Load Add-on File...` and browse to the `zaproxy/src/plugin` directory and select the `hud-alpha-1.zap` extension.
 
-After that you should see the ZAP HUD beacon in the ZAP icon tray. 
+
+![Load Add-on File](../img/add-plugin-dialogue.png)
+
+![Load Add-on File](../img/add-plugin-file.png)
+
+After that you should see the ZAP HUD beacon in the ZAP chrome toolbar and the Installed Plugins view. 
 
 ![HUD Beacon](../img/hud-beacon.png)
+
+![Show Installed Add-ons](../img/installed-plugins.png)
