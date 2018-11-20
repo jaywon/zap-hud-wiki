@@ -31,4 +31,4 @@ To add the HUD plugin to ZAP, go to `File->Load Add-on File...` and browse to th
 
 After that you should see the ZAP HUD beacon in the ZAP icon tray. 
 
-![HUD Beacon](/img/hud-beacon.png)
+![HUD Beacon](../img/hud-beacon.png)
