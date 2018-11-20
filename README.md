@@ -34,3 +34,8 @@ See the official [Mkdocs website](https://www.mkdocs.org/) documentation for inf
 ##### Build new release
 1. `mkdocs build`
 2. Generated site files will now be accessible in the `site` directory for deployment
+
+##### Deployment
+Deployment is using Github Pages and using built in mkdocs Github Pages deployement. The following command will create and push to a `gh-pages` branch.
+
+1. `mkdocs gh-deploy`

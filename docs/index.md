@@ -1,17 +1,4 @@
-# Welcome to MkDocs
+# OWASP ZAP Heads Up Display (HUD)
+The **OWASP ZAP HUD** project is a next-generation approach to web application penetration testing, with a primary focus on integration of the the tools and the environment being tested by industry professionals. 
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+As a frictionless integration to the tools you already use, _the HUD_ will lead to a more effective and productive assessment of any web application using the tools you already know and love.    
