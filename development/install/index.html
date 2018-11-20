@@ -347,9 +347,65 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Installation
+      </label>
+    
     <a href="./" title="Installation" class="md-nav__link md-nav__link--active">
       Installation
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#dependencies" title="Dependencies" class="md-nav__link">
+    Dependencies
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#development" title="Development" class="md-nav__link">
+    Development
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#build-the-hud" title="Build the HUD" class="md-nav__link">
+    Build the HUD
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-the-hud-plugin-to-zap" title="Adding the HUD plugin to ZAP" class="md-nav__link">
+    Adding the HUD plugin to ZAP
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -412,6 +468,49 @@
     
   
   
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#dependencies" title="Dependencies" class="md-nav__link">
+    Dependencies
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#development" title="Development" class="md-nav__link">
+    Development
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#build-the-hud" title="Build the HUD" class="md-nav__link">
+    Build the HUD
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-the-hud-plugin-to-zap" title="Adding the HUD plugin to ZAP" class="md-nav__link">
+    Adding the HUD plugin to ZAP
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -432,6 +531,26 @@
 <li>Windows 10</li>
 <li>Mac OSX </li>
 </ul>
+<h3 id="dependencies">Dependencies</h3>
+<p>You will need to have the following tools installed for development of the HUD.</p>
+<ul>
+<li><code>gradle</code></li>
+</ul>
+<h3 id="development">Development</h3>
+<p>To develop with the HUD you will need to clone the following two repositorites.</p>
+<p><strong>NOTE:</strong> It is recommended that both repositories are sibling directories and maintain the original repository names.</p>
+<ul>
+<li><a href="https://github.com/zaproxy/zaproxy">https://github.com/zaproxy/zaproxy</a></li>
+<li><a href="https://github.com/psiinon/zap-hud">https://github.com/psiinon/zap-hud</a></li>
+</ul>
+<h4 id="build-the-hud">Build the HUD</h4>
+<p>To build a development version of the HUD plugin run the following command.</p>
+<p><code>gradle deployAndResetHud</code></p>
+<p>The above command will build the <code>hud-alpha-1.zap</code> plugin to the <code>zap-hud/build/zap/</code> directory and move the compiled plugin to the <code>zaproxy/src/plugin</code> project subdirectory.</p>
+<h4 id="adding-the-hud-plugin-to-zap">Adding the HUD plugin to ZAP</h4>
+<p>To add the HUD plugin to ZAP, go to <code>File-&gt;Load Add-on File...</code> and browse to the <code>zaproxy/src/plugin</code> directory and select the <code>hud-alpha-1.zap</code> extension.</p>
+<p>After that you should see the ZAP HUD beacon in the ZAP icon tray. </p>
+<p><img alt="HUD Beacon" src="/img/hud-beacon.png" /></p>
                 
                   
                 
