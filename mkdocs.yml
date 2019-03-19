@@ -3,12 +3,15 @@ repo_url: https://github.com/psiinon/zap-hud
 strict: True
 nav:
   - Home: index.md
+  - Installation: install.md
+  - Deploying: deploy.md
   - Using the HUD:
-    - 'Tutorial': tutorial/tutorial-overview.md
-  - Install:
-      - 'Install the HUD': install/install.md
+      - 'How To Use': userguide/using-the-hud.md
+      - 'Tutorial': userguide/tutorial-overview.md
   - Development:
-    - 'Installation': development/install.md
+      - 'Installation': development/install.md
+      - 'Creating A Tool': development/create-a-tool.md
+  - Security: security.md
   - Roadmap: roadmap.md
   - FAQ: faq.md
   - About: about.md
